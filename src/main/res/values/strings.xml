@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Taiwan Kid Song</string>
+
+    <string name="dialog_title_exit">Exit?</string>
+    <string name="dialog_desc_exit">See you later.</string>
+
+    <string name="dialog_title_error_track_not_accessible">Sorry</string>
+    <string name="dialog_desc_error_track_not_accessible">Failed to read the video. Try to reboot or reinstall.</string>
+
+    <string name="dialog_title_error_track_not_prepared">Sorry</string>
+    <string name="dialog_desc_error_track_not_prepared">Phone reported that the video cannot be loaded in this phone.</string>
+
+    <string name="dialog_title_error_track_not_playable">Sorry</string>
+    <string name="dialog_desc_error_track_not_playable">Phone reported that the video cannot be playbacked in this phone.</string>
+
+    <string name="dialog_title_error_expansion_no_space">Oops</string>
+    <string name="dialog_desc_error_expansion_no_space">Video file is lost, and storage size is not enough for download the video data.</string>
+
+    <string name="dialog_title_error_expansion_broken">Oops</string>
+    <string name="dialog_desc_error_expansion_broken">Video file is lost. Please turn on the network for downloading.</string>
+
+    <string name="dialog_title_error_expansion_broken_mobile_download">Download</string>
+    <string name="dialog_desc_error_expansion_broken_mobile_download">Video file is lost. Do you want to download it now? Phone is NOT using WIFI right now.</string>
+
+    <string name="dialog_title_error_expansion_broken_wifi_download">Download</string>
+    <string name="dialog_desc_error_expansion_broken_wifi_download">Video file is lost. Do you want to download it now? Phone is using WIFI right now.</string>
+
+    <string name="dialog_title_explain_write_permission_to_playback">Request Permission</string>
+    <string name="dialog_desc_explain_write_permission_to_playback">APP need you the storage permission to playback the video.</string>
+
+    <string name="dialog_title_explain_write_permission_to_download">Request Permission</string>
+    <string name="dialog_desc_explain_write_permission_to_download">APP need you the storage permission to download the video.</string>
+
+    <string name="dialog_title_no_write_permission_to_playback">Error</string>
+    <string name="dialog_desc_no_write_permission_to_playback">APP cannot playback the video without storage permission. Please grant the storage permission manually in Phone->Setting->Application</string>
+
+    <string name="dialog_title_no_write_permission_to_download">Error</string>
+    <string name="dialog_desc_no_write_permission_to_download">APP cannot download the video without storage permission. Please grant the storage permission manually in Phone->Setting->Application</string>
+
+    <string name="message_version">version</string>
+    <string name="message_download_complete_after_n_seceonds">sec</string>
+    <string name="message_expansion_broken">Video file broken or missing</string>
+
+    <string name="message_failed_to_start_download_expansion">Failed to launch the download process, try layer.</string>
+
+    <string name="notification_title_new_version">Taiwan Kid Song</string>
+    <string name="notification_text_new_version">New song is available now. Click to update the APP.</string>
+
+    <string name="video_loading_text">Preparing the video</string>
+
+    <string name="download_page_check_expansion_file">Verifying latest video content</string>
+    <string name="download_page_expansion_file_exist">Video content up to date</string>
+    <string name="download_page_start_download_expansion_file">Downloading video content</string>
+</resources>

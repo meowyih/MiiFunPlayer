@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="@color/FragmentConfirmBackground"/>
+    <stroke
+        android:width="@dimen/fragment_confirm_stroke"
+        android:color="@color/FragmentConfirmStroke" />
+    <corners android:radius="@dimen/fragment_confirm_rounded_corner"/>
+    <padding
+        android:left="@dimen/fragment_confirm_padding"
+        android:top="@dimen/fragment_confirm_padding"
+        android:right="@dimen/fragment_confirm_padding"
+        android:bottom="@dimen/fragment_confirm_padding" />
+</shape>

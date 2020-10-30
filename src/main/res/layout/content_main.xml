@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F95D10">
+
+    <RelativeLayout
+        android:id="@+id/rl_content_outer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="@dimen/content_main_default_padding_vertical"
+        android:paddingBottom="@dimen/content_main_default_padding_vertical"
+        android:paddingLeft="@dimen/content_main_default_padding_horizontal"
+        android:paddingRight="@dimen/content_main_default_padding_horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/rl_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:background="@drawable/boarder_rounded_corner_no_stroke">
+
+            <ScrollView
+                android:id="@+id/sv_content_song"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none" >
+
+                <LinearLayout
+                    android:id="@+id/ll_content_song"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_content_exit"
+        android:layout_width="@dimen/common_icon_exit_width"
+        android:layout_height="@dimen/common_icon_exit_height"
+        android:background="@drawable/btn_exit"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="@dimen/common_icon_exit_margin_left"
+        android:layout_marginBottom="@dimen/common_icon_exit_margin_bottom"/>
+
+    <TextView
+        android:id="@+id/tv_content_version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!-- common for all pages -->
+    <dimen name="common_icon_exit_width">60dp</dimen>
+    <dimen name="common_icon_exit_height">60dp</dimen>
+    <dimen name="common_icon_exit_margin_left">0dp</dimen>
+    <dimen name="common_icon_exit_margin_bottom">5dp</dimen>
+
+    <dimen name="common_icon_next_width">60dp</dimen> <!-- 572x471-->
+    <dimen name="common_icon_next_height">49dp</dimen>
+    <dimen name="common_icon_next_margin_right">0dp</dimen>
+    <dimen name="common_icon_next_margin_top">5dp</dimen>
+
+    <dimen name="common_icon_back_width">60dp</dimen> <!-- 572x471-->
+    <dimen name="common_icon_back_height">49dp</dimen>
+    <dimen name="common_icon_back_margin_left">0dp</dimen>
+    <dimen name="common_icon_back_margin_top">5dp</dimen>
+
+    <!-- content page -->
+    <dimen name="content_main_default_padding_vertical">30dp</dimen>
+    <dimen name="content_main_default_padding_horizontal">30dp</dimen>
+    <dimen name="content_main_rounded_radius">10dp</dimen>
+
+    <dimen name="content_main_logo_icon_outer_size">80dp</dimen>
+    <dimen name="content_main_logo_icon_button_margin">10dp</dimen>
+
+    <dimen name="content_main_adv_area_width">180dp</dimen> <!-- fixed size in runtime, diff from screen size -->
+    <dimen name="content_main_adv_padding_vertical">10dp</dimen>
+    <dimen name="content_main_adv_padding_horizontal">10dp</dimen>
+
+    <dimen name="content_main_song_icon_outer_size">100dp</dimen>
+    <dimen name="content_main_song_icon_padding">5dp</dimen>
+
+    <!-- splash page -->
+    <dimen name="splash_page_logo_width">205dp</dimen> <!-- original size 1228x840, 1.4619:1 -->
+    <dimen name="splash_page_logo_height">140dp</dimen>
+
+    <dimen name="splash_page_logo_text_width">240dp</dimen> <!-- original size 800x200 -->
+    <dimen name="splash_page_logo_text_height">60dp</dimen>
+
+    <!-- Loading page -->
+    <dimen name="loading_page_text_size">30dp</dimen>
+
+    <!-- Download page -->
+    <dimen name="download_page_progress_bar_margin_horizontal">30dp</dimen>
+
+    <!--confirm fragment -->
+    <dimen name="fragment_confirm_width">450dp</dimen> <!-- around70mm -->
+    <dimen name="fragment_confirm_height">260dp</dimen>
+    <dimen name="fragment_confirm_padding">20dp</dimen>
+    <dimen name="fragment_confirm_rounded_corner">30dp</dimen>
+    <dimen name="fragment_confirm_stroke">5dp</dimen>
+
+    <dimen name="fragment_confirm_image_width">180dp</dimen> <!-- original size 1223x846, 1.445626:1 -->
+    <dimen name="fragment_confirm_image_height">125dp</dimen>
+
+    <dimen name="fragment_confirm_text_title_width">230dp</dimen>
+    <dimen name="fragment_confirm_text_title_height">80dp</dimen>
+    <dimen name="fragment_confirm_text_title_size">25sp</dimen>
+
+    <dimen name="fragment_confirm_text_desc_width">230dp</dimen>
+    <dimen name="fragment_confirm_text_desc_height">70dp</dimen>
+    <dimen name="fragment_confirm_text_desc_size">15sp</dimen>
+
+    <dimen name="fragment_confirm_button_width">50dp</dimen>
+    <dimen name="fragment_confirm_button_height">50dp</dimen>
+    <dimen name="fragment_confirm_button_margin_horizontal">50dp</dimen>
+
+    <!-- effect -->
+    <dimen name="effect_general_item_size">160dp</dimen> <!-- square image, 25.4mm -->
+    <dimen name="effect_girl_bye_item_size">311dp</dimen> <!-- square image, 49.4mm -->
+
+
+</resources>

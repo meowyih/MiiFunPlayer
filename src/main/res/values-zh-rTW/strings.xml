@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">兒歌玩玩玩</string>
+
+    <string name="dialog_title_exit">要走了嗎?</string>
+    <string name="dialog_desc_exit">要回來唷</string>
+
+    <string name="dialog_title_error_track_not_accessible">對不起</string>
+    <string name="dialog_desc_error_track_not_accessible">讀不到影片，試試看重開手機或重新安裝?</string>
+
+    <string name="dialog_title_error_track_not_prepared">對不起</string>
+    <string name="dialog_desc_error_track_not_prepared">因為不明原因，手機回報準備影片失敗</string>
+
+    <string name="dialog_title_error_track_not_playable">對不起</string>
+    <string name="dialog_desc_error_track_not_playable">因為不明原因，手機回報影片不能撥放</string>
+
+    <string name="dialog_title_error_expansion_no_space">糟糕</string>
+    <string name="dialog_desc_error_expansion_no_space">找不到音樂檔案，儲存空間也不夠再次下載，請清理一下 SD 卡。</string>
+
+    <string name="dialog_title_error_expansion_broken">糟糕</string>
+    <string name="dialog_desc_error_expansion_broken">找不到音樂檔案，請開啟網路讓我下載，謝謝。</string>
+
+    <string name="dialog_title_error_expansion_broken_mobile_download">要下載嗎?</string>
+    <string name="dialog_desc_error_expansion_broken_mobile_download">找不到音樂檔案，要下載嗎? 手機現在不是用 WIFI 唷。</string>
+
+    <string name="dialog_title_error_expansion_broken_wifi_download">要下載嗎?</string>
+    <string name="dialog_desc_error_expansion_broken_wifi_download">找不到音樂檔案，要下載嗎? 手機現在是用 WIFI 網路，請放心。</string>
+
+    <string name="dialog_title_explain_write_permission_to_playback">無法撥放音樂</string>
+    <string name="dialog_desc_explain_write_permission_to_playback">APP需要你允許，我們才能播放檔案，不然大部分的歌都不能播。</string>
+
+    <string name="dialog_title_explain_write_permission_to_download">無法下載音樂</string>
+    <string name="dialog_desc_explain_write_permission_to_download">APP需要你允許，我們才能下載檔案。</string>
+
+    <string name="dialog_title_no_write_permission_to_playback">無法撥放音樂</string>
+    <string name="dialog_desc_no_write_permission_to_playback">因為讀檔案的權限關閉了，大部分歌曲無法撥放，請在手機->設定->應用程式中開啟權限。</string>
+
+    <string name="dialog_title_no_write_permission_to_download">無法下載音樂</string>
+    <string name="dialog_desc_no_write_permission_to_download">因為讀檔案的權限關閉了，APP無法下載音樂，請在手機->設定->應用程式中開啟權限。</string>
+
+    <string name="message_version">版本</string>
+    <string name="message_download_complete_after_n_seceonds">秒後下載完成</string>
+    <string name="message_expansion_broken">音樂檔損壞</string>
+
+    <string name="message_failed_to_start_download_expansion">無法開啟下載，晚點再試吧</string>
+
+    <string name="notification_title_new_version">兒歌玩玩玩</string>
+    <string name="notification_text_new_version">新歌上架，點我更新吧!</string>
+
+    <string name="video_loading_text">準備影片中，請稍等</string>
+
+    <string name="download_page_check_expansion_file">檢查兒歌影片</string>
+    <string name="download_page_expansion_file_exist">兒歌影片 OK!</string>
+    <string name="download_page_start_download_expansion_file">下載兒歌影片</string>
+</resources>
